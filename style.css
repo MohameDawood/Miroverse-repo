@@ -58,7 +58,7 @@ a:visited{
 .nav-link{
   font-weight: 500;
   text-align: center;
-  padding: 1rem 205rem;
+  padding: 1rem 2.5rem;
 }
 .nav-link:hover{
   cursor: pointer;
@@ -82,16 +82,23 @@ a:visited{
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 200px;
-  margin-top: 50px;
+  height: 20rem;
+  margin-top: 5rem;
   color: #3a3c4c;
 }
 #email-section h2 {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   font-weight: 400;
   line-height: 1.25;
   color: #3a3c4c;
+  text-transform: uppercase;
 } 
+#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 #email-section input[type="email"] {
   width: 500px;
   border: 5px solid white;
@@ -103,10 +110,8 @@ a:visited{
   margin: 0 0 10px 0;
 }
 #email-section input[type="submit"] {
-  max-width: 150px;
-  width: 100%;
-  height: 30px;
-  margin: 15px 0;
+  width: 20rem;
+  height: 40px;
   border: 0;
   border-radius: 4px;
   background-color: #ffd540;
@@ -114,8 +119,6 @@ a:visited{
 }
 #email-section input[type="submit"]:hover {
   cursor: pointer;
-} 
-#heremail-sectiono input[type="submit"]:hover {
   background-color: orange;
   transition: background-color .5s;
 }
