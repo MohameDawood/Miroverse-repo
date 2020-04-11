@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+html {
+    font-size: 10px;
+}
+
+body{
+    color: black;
+    font-size: 1.6rem;
+    font-family: Montserrat;
+}
+
+
+#header{
+    /*position: fixed;*/
+    background-color: #6f23ff;
+    margin: 0 auto;
+    width: 100%;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-img{
+    display: inline-block;
+    width: 20rem;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+    justify-content: space-between;
+}
+
+li{
+    display: inline-block;
+    list-style: none;  
+
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color: white;
+    line-height: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 25px;
+
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: #ffd540;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.19);
+    transition: color 150ms ease-in-out;
+    color: rgba(62,62,62,.5);
+    border-radius: 4px;
+}
+
+.footer {
+    margin-top: 30px;
+    background-color: #6f23ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+  #email-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+    color: #3a3c4c;
+  }
+  
+  #email-section > h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+  
+  #email-section input[type="email"] {
+    width: 500px;
+    border: 5px solid white;
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+
+  
+  #email-section input[type="submit"] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    border-radius: 4px;
+    background-color: #ffd540;
+    font-weight: 600;
+  }
+  #email-section input[type="submit"]:hover {
+    cursor: pointer;
+  }
+  
+  #heremail-sectiono input[type="submit"]:hover {
+    background-color: orange;
+    transition: background-color .5s;
+  }
+  
+  #features {
+    margin-top: 30px;
+
+  }
+  
+  #features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
+
+  #features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+  }
+
+  .container{
+      width: 1200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #video-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #video {
+    
+    width: 50vw;
+  }
+
+  #pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+    border-radius: 3px;
+  }
+  
+  .product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .product > h2 {
+    margin-top: 15px;
+  }
+  
+  .product > ol {
+    margin: 15px 0;
+  }
+  
+  .product > ol > li {
+    padding: 5px 0;
+  }
+  
+  .product > button {
+    border: 0;
+    margin: 15px 0;
+    background-color: ##ffd540;
+    font-weight: 400;
+    width: 150px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .product > button:hover {
+    background-color: orange;
+    transition: background-color 1s;
+  }
+  
+  @media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+    }
+    .product {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+
+.footer > ul {
+display: flex;
+justify-content: flex-end;
+}
+
+.footer > ul > li {
+padding: 0 10px;
+}
+
+.footer > p {
+margin-top: 15px;
+font-weight: 300;
+display: flex;
+justify-content: flex-end;
+font-size: 0.9em;
+color: white;
+}
